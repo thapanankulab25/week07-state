@@ -19,8 +19,9 @@ export default function RefsArray(){
       };
     
       const onMouseOverRow = (i) => {
-        tr.current[i].style.backgroundColor = 'yellow';
+        tr.current[i].style.backgroundColor = 'rgba(255, 209, 220, 0.6)';
       };
+      
     
       const onMouseOutRow = (i) => {
         tr.current[i].style.backgroundColor = 'white';
@@ -30,7 +31,7 @@ export default function RefsArray(){
 
     return (
         <table ref={table} border="1" cellPadding={5} style={TableStyles}>
-            <tr>
+            <tr style= {{ backgroundColor: "#ffd1dc"}}>
                 <th>Product</th>
                 <th>Price</th>
                 <th>Delete</th>

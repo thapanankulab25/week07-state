@@ -20,7 +20,7 @@ let msgboxStyle = {
     display: 'inline-block',
     width:350,
     fontSize:size,
-    backgroundColor:'#ccc',
+    backgroundColor:'#ffd1dc',
     padding:5,
     textAlign:'left'
 }
