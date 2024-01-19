@@ -1,7 +1,11 @@
 import React from 'react';
 import RefsFunc from './refs-func';
-import RefsArray from './refs-array'
+import RefsArray from './refs-array';
+import MessageBox from './state-func';
 
 export default function App() {
-  return <RefsArray/>;
+
+  return <>
+  <RefsFunc /> ,<br></br>, <RefsArray />,<br></br>,<MessageBox />; 
+  </>
 }
